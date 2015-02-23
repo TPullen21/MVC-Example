@@ -14,6 +14,8 @@
 		DD26CC1A1A9BB465000161C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD26CC191A9BB465000161C4 /* Images.xcassets */; };
 		DD26CC1D1A9BB465000161C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD26CC1B1A9BB465000161C4 /* LaunchScreen.xib */; };
 		DD26CC291A9BB465000161C4 /* MVCExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD26CC281A9BB465000161C4 /* MVCExampleTests.m */; };
+		DD26CC341A9BB4DD000161C4 /* TaskCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD26CC331A9BB4DD000161C4 /* TaskCell.m */; };
+		DD26CC371A9BB61E000161C4 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = DD26CC361A9BB61E000161C4 /* Task.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		DD26CC221A9BB465000161C4 /* MVCExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVCExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD26CC271A9BB465000161C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD26CC281A9BB465000161C4 /* MVCExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCExampleTests.m; sourceTree = "<group>"; };
+		DD26CC321A9BB4DD000161C4 /* TaskCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskCell.h; sourceTree = "<group>"; };
+		DD26CC331A9BB4DD000161C4 /* TaskCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskCell.m; sourceTree = "<group>"; };
+		DD26CC351A9BB61E000161C4 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		DD26CC361A9BB61E000161C4 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,10 @@
 				DD26CC131A9BB465000161C4 /* ViewController.h */,
 				DD26CC141A9BB465000161C4 /* ViewController.m */,
 				DD26CC161A9BB465000161C4 /* Main.storyboard */,
+				DD26CC351A9BB61E000161C4 /* Task.h */,
+				DD26CC361A9BB61E000161C4 /* Task.m */,
+				DD26CC321A9BB4DD000161C4 /* TaskCell.h */,
+				DD26CC331A9BB4DD000161C4 /* TaskCell.m */,
 				DD26CC191A9BB465000161C4 /* Images.xcassets */,
 				DD26CC1B1A9BB465000161C4 /* LaunchScreen.xib */,
 				DD26CC0C1A9BB465000161C4 /* Supporting Files */,
@@ -219,6 +229,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD26CC371A9BB61E000161C4 /* Task.m in Sources */,
+				DD26CC341A9BB4DD000161C4 /* TaskCell.m in Sources */,
 				DD26CC151A9BB465000161C4 /* ViewController.m in Sources */,
 				DD26CC121A9BB465000161C4 /* AppDelegate.m in Sources */,
 				DD26CC0F1A9BB465000161C4 /* main.m in Sources */,
